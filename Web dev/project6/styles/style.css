@@ -1,0 +1,131 @@
+
+body{
+    background-color:aquamarine;
+    height: 100vh;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.laptoplarge,.laptop,.Tablet,.Mobile{
+    text-align: center;
+    font-size: 25px;
+    display: none;
+}
+
+
+
+/*
+@media screen and (min-width:0px){
+    body{
+        background-color: crimson;
+    }
+
+    .Mobile{
+        display: block;
+    }
+}
+
+@media screen and (min-width:425px){
+    body{
+        background-color: aqua;
+    }
+
+    .Mobile{
+        display: none;
+    }
+    .Tablet{
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px){
+    body{
+        background-color: darkgoldenrod;
+    }
+
+    .Mobile{
+        display: none;
+    }
+    .Tablet{
+        display: none;
+    }
+    .laptop{
+        display: block;
+    }
+}
+
+@media screen and (min-width:1024px){
+    body{
+        background-color: forestgreen;
+    }
+
+    .Mobile{
+        display: none;
+    }
+    .Tablet{
+        display: none;
+    }
+    .laptop{
+        display: none;
+    }
+    .laptoplarge{
+        display: block;
+    }
+}
+*/
+
+ @media screen and (max-width: 1440px) {
+    body {
+        background-color: brown;
+    }
+    .laptoplarge {
+        display: block;
+    }
+}
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: chartreuse;
+    }
+    .laptoplarge {
+        display: none;
+    }
+    .laptop {
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        background-color: darkorange;
+    }
+    .laptoplarge {
+        display: none;
+    }
+    .laptop {
+        display: none;
+    }
+    .Tablet {
+        display: block;
+    }
+}
+@media screen and (max-width: 425px) {
+    body {
+        background-color: darkolivegreen;
+    }
+    .laptoplarge {
+        display: none;
+    }
+    .laptop {
+        display: none;
+    }
+    .Tablet {
+        display: none;
+    }
+    .Mobile {
+        display: block;
+    }
+} 
+
+
